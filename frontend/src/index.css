@@ -1,0 +1,36 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --border: #e2e6ef;
+  --text: #1a1d2e;
+  --text-secondary: #6b7280;
+  --accent: #4f6ef7;
+  --accent-hover: #3b55d4;
+  --frontend-bg: #eef2ff;
+  --frontend-border: #c7d2fe;
+  --backend-bg: #f0fdf4;
+  --backend-border: #bbf7d0;
+  --user-bg: #4f6ef7;
+  --system-bg: #f9fafb;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+#root {
+  height: 100%;
+}
