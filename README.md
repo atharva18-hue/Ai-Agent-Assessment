@@ -6,13 +6,6 @@ A two-agent system where a **Frontend Agent** (React) and a **Backend Agent** (F
 
 ---
 
-## Demo Video
-
-<!-- Add your demo video link here -->
-> **[Watch the demo](#)** — shows the full agent interaction: task input → tone clarification → length clarification → generated output.
-
----
-
 ## Architecture
 
 ```
